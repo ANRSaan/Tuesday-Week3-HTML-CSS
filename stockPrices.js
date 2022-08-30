@@ -8,14 +8,14 @@ array = [1, 8, 12, 6, 18, 10, 87, 9]
 //     }
 //     if (array[i] < small){
 //       small = array[i]
-//     }
+//     }       
 //   }
-// return console.log(`buy at ${small}, sell at ${big}`)
+// return console.log(big - small)
 // }
 
 const best = array => {
   array.sort((a,b) => a - b)
-  return console.log(`buy at ${array[0]}, sell at ${array[array.length -1]}`)
+  return console.log((array[array.length -1]) - array[0])
 }
 
 best(array)
