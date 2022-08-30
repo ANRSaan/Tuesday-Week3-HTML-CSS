@@ -1,0 +1,137 @@
+body {
+    height: 2000px;
+}
+
+body > div {
+    background-color: blanchedalmond;
+    position: relative;
+    width: 500px;
+    height: 1000px;
+}
+
+.children {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+#box1 {
+background-color: red;
+position: relative;
+top: 5px;
+left: 5px;
+}
+
+div article {
+    color: steelblue;
+}
+
+#inline-section {
+    background-color: aqua;
+}
+
+#inline-section > div {
+    background-color: blue;
+    border: 5px dotted;
+    display: inline;
+    color: white;
+    height: 50px;
+    width: 50px;
+    /* doesn't work to change dimentions of inline */
+}
+
+#ib-section {
+    background-color: greenyellow;
+}
+
+#ib-section > div {
+    background-color: green;
+    border: 5px dotted black;
+    display: inline-block;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+#flex-section {
+    background-color: palevioletred;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-evenly; */
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+#flex-section > div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+#baseline-section {
+    background-color: brown;
+    display: flex;
+    align-items: baseline;
+    width: 50px;
+
+}
+
+#baseline-section > div {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+#tall {
+    height: 150px;
+}
+
+#short {
+    height: 100px;
+}
+
+#medium {
+    height: 125px;
+}
+
+#content-box {
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+#border-box {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+footer {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+}
+
+#box2 {
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#box3 {
+    background-color: green;
+    position: sticky;
+    top: 5px;
+}
