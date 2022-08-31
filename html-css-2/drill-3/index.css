@@ -1,0 +1,68 @@
+header {
+    background-color: rgb(207, 206, 206);
+    height: 120px;
+    display: flex;
+}
+
+#blue-box {
+    background-color: cornflowerblue;
+    height: 80px;
+    width: 80px;
+    margin: 20px 20px;
+    position: relative;
+}
+
+body {
+    height: 1200px;
+    width: 100%;
+}
+
+p {
+    margin: 60px 60px 60px 60px;
+    text-indent: 15px;
+}
+
+#blue {
+    background-color: cornflowerblue;
+    height: 250px;
+    width: 100%;
+}
+
+#aqua {
+    background-color: aquamarine;
+    height: 250px;
+    width: 100%;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+    height: 250px;
+    width: 100%;
+}
+
+#yellow {
+    background-color: yellow;
+    height: 250px;
+    width: 100%;
+}
+
+footer {
+    margin: 10px;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+footer > div {
+    right: 0px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;}
