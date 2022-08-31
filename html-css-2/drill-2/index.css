@@ -3,10 +3,9 @@ body{
     width: 100%;
 }
 
-#header-box {
+header {
     margin: 20px;
     box-sizing: border-box;
-    /* background-color: aqua; */
     border: 5px solid black;
     height: 250px;
     width: 98vw;
@@ -15,19 +14,21 @@ body{
     padding: 20px;
 }
 
+header > div{
+    display: inline-block;
+}
+
 #green-box {
     background-color: green;
     height: 200px;
     width: 400px;
     margin: 0 50px;
-    display: inline-block;
 }
 
 #purple-box {
     background-color: rgb(105, 45, 128);
     height: 150px;
     width: 50px;
-    display: inline-block;
 }
 
 #blue-circle {
@@ -35,13 +36,11 @@ body{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: inline-block;
 }
 
 #dotted-outline {
     margin: 20px;
     box-sizing: border-box;
-    /* background-color: aqua; */
     border: 5px dotted;
     height: 250px;
     width: 98vw;
